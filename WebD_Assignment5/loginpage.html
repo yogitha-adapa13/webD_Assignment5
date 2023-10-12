@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparkle & Shine | Salon Services</title>
+    <link rel="icon" type="media/jpeg" href="\images\logo.jpeg">
+    <link  rel="stylesheet" href="\css\style.css">
+    <link rel="stylesheet" href="stylesheet5.css">
+    
+
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color:red;
+        }
+
+        .login-container {
+            width: 300px;
+            margin: 0 auto;
+            margin-top: 100px;
+            background: black;
+            padding: 50px;
+            border-radius: 5px;
+            color:rgb(235, 9, 137);
+        }
+
+        .login-container h2 {
+            text-align: center;
+        }
+
+        .login-background {
+            
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .login-background img {
+            position: absolute;
+            width: 30%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        
+
+        .left-image {
+            left: 0;
+            width: 200px;
+        }
+
+        .right-image {
+            right: 0;
+        }
+
+        .form-group {
+            margin: 10px 0;
+        }
+
+        .form-group label {
+            display: block;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .form-group input[type="submit"] {
+            background: rgb(235, 9, 137);
+            color: black;
+            cursor: pointer;
+            align-content: center;
+        }
+        .back-to-home {
+            text-align: center;
+            /*margin-top: 20px;*/
+        }
+
+        .back-to-home a {
+            text-decoration: none;
+            color: rgb(235, 9, 137);
+            padding: 5px 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .back-to-home a:hover {
+            background-color: rgb(235, 9, 137);
+            color: black;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class = "header-content">
+          <h1 class="salon-name">
+              <font color="Black">SPARKLE &</font>
+              <font color="red !important" id="shine">SHINE</font>
+          </h1>
+        </div>
+    </header>
+    <div class="login-background">
+        
+        <img class="left-image" src="\images\hair1.jpeg" alt="Left Image">
+        
+        <img class="right-image" src="\images\hair2.jpeg" alt="Right Image">
+    </div>
+
+    <div class="login-container">
+        <h2>LOGIN</h2>
+        <form method="post">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login">
+            </div>
+        </form>
+        <br> <br>
+        <div class="back-to-home">
+            <a href="main.html">Back to Home</a>
+        </div>
+    
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="footer-section">
+            <h3>CONTACT US</h3>
+            <p>365 Huntington Avenue</p>
+            <p>Boston , MA</p>
+            <p>Email: <a href="mailto:info@example.com">Sparkle&Shine@gmail.com</a></p>
+            <p>Phone: <a href="tel:(123) 456-7890">(123) 456-7890</a></p>
+        </div>
+      
+        <div class="footer-section">
+            <h3>OUR SERVICES</h3>
+            <ul>
+                <li>Hair Care</li><br>
+                <li>Body Care</li><br>
+                <li>Bridal Makeup</li>
+            </ul>
+        </div>
+      
+        <div class="footer-section">
+            <h3>Social Media</h3>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook">Instagram</i></a></li>
+                <li><a href="#"><i class="fab fa-twitter">Facebook</i></a></li>
+                <li><a href="#"><i class="fab fa-instagram">Twitter</i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+      </footer>
+     
+    
+</body>
+</html>

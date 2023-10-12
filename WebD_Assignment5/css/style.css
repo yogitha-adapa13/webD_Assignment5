@@ -1,0 +1,119 @@
+/*variable */
+body {
+  background-color: white !important; /*variable usage*/
+  margin: 0;
+  padding: 0;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  padding: 3px;
+  text-align: center;
+  margin-right: 1px;
+}
+
+/*nesting */
+.grid-item {
+  /* calling the above mixin */
+  /* using interpolation */
+}
+.grid-item img {
+  width: 70px;
+  padding: 1; /*custom properties*/
+  transition: 1s ease;
+}
+.grid-item .goldtext {
+  font-size: 13px;
+  color: rgb(235, 9, 137);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid-item img:hover {
+  transform: scale(1.2);
+  transition: 0.2 s ease;
+}
+
+.col-right {
+  width: 75%;
+}
+
+.col-right img {
+  display: -webkit-box;
+  width: 500px;
+  margin-left: auto;
+  margin-right: 100px;
+  margin-top: 50px; /*custom property */
+}
+.col-right .carousel-container {
+  width: 40%;
+  float: right;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0;
+  background-color: white;
+}
+
+.menu li {
+  display: block;
+  margin-right: 2px;
+  margin-left: 0px;
+  border-radius: 5px;
+}
+.menu li a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+  padding: 5px 15px;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+  position: absolute;
+  background-color: white;
+}
+
+/* Hide the submenu by default */
+.submenu {
+  display: none;
+  position: absolute;
+}
+
+.submenu li {
+  display: block;
+}
+
+.submenu li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: none;
+}
+
+.submenu li:hover {
+  background-color: rgb(235, 9, 137); /* Change the background color on hover */
+}
+
+/* Hover effect for menu items */
+.menu li a:hover {
+  color: black; /* Change the color on hover */
+}
+
+h3, h4 a, h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h4 {
+  color: rgb(235, 9, 137) !important;
+  font-size: 15px !important;
+}
+
+h4 a {
+  color: rgb(235, 9, 137) !important;
+}/*# sourceMappingURL=style.css.map */
